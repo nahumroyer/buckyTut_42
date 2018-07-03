@@ -16,3 +16,11 @@ Person::~Person(){
 void Person::printCrap(){
     cout << "did someone say steak?" << endl;
 }
+
+void Person::printShits(){
+    cout << "i'm printin regular function" << endl;
+}
+
+void Person::printShits2() const {
+    cout << "this is the constant function" << endl;
+}

@@ -6,6 +6,7 @@ using namespace std;
 
 int main(){
     Person pson_object;
-    cout << "there's a shoe" << endl;
+    pson_object.printShits();
+    const Person const_object;
     return 0;
 }
