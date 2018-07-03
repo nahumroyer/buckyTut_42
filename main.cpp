@@ -5,8 +5,8 @@
 using namespace std;
 
 int main(){
-    Person pson_object;
-    pson_object.printShits();
-    const Person const_object;
+
+    Person p(3, 87);
+    p.print();
     return 0;
 }

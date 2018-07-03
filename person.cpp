@@ -4,9 +4,11 @@
 #include <iostream>
 using namespace std;
 
-Person::Person()
+// Creating a constructor that takes 2 variables and
+// sets one = var, one = constant var
+Person::Person(int a, int b)
+: regVar(a), constVar(b)
 {
-    cout << "this is the constructor" << endl;
 }
 
 Person::~Person(){
@@ -23,4 +25,8 @@ void Person::printShits(){
 
 void Person::printShits2() const {
     cout << "this is the constant function" << endl;
+}
+
+void Person::print(){
+    cout << "regualar var is " << regVar << " and const var is " << constVar << endl;
 }
