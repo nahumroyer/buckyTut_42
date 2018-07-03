@@ -1,0 +1,1 @@
+// Header file for Person Class#ifndef PERSON_H #define PERSON_Hclass Person{    public:        Person(int a, int b);        // Constructor        ~Person();       // Destructor        void print();        void printCrap();        void printShits();        void printShits2() const;    private:        int regVar;        const int constVar;};#endif 
