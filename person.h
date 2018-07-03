@@ -4,7 +4,7 @@
 class Person
  {
     public:
-        Person();
+        Person();        // Constructor         ~Person();       // Destructor
         void printCrap();
  };
 
